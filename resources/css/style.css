@@ -1,2 +1,218 @@
 /* ~ 00:20:00 div design on paper */
 /* ~ 00:40:00 fill up html */
+
+div {
+  border: 1px dotted red;
+}
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: LightCyan;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 2rem 0;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+h4 {
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+p.footer {
+  font-size: 0.8rem;
+}
+
+/* Navigation section */
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  width: 1000px;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background-color: White;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  heigth: 2rem;
+}
+
+.logo span {
+  font-family: serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: Gray
+}
+
+.logo em {
+  font-weight: bold;
+  color: Black;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+   padding-left: 1rem;
+ }
+
+nav li a {
+  text-decoration: none;
+  color: Black;
+}
+
+/* Main part */
+
+.main-container {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 4rem;
+}
+
+.main-box {
+  background-color: LightSteelBlue;
+  width: 1000px;
+  min-height: 400px;
+  padding: 2rem 1.5rem;
+  display: flex;
+}
+
+.box-large {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 1.5rem;
+  width: 60%;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box.side {
+  width: 40%
+}
+
+/* does not work :(
+.main-container:nth-child(odd) {
+  background-color: OldLace;
+}
+*/
+
+/* Banner here section */
+
+.banner h3 {
+  margin-bottom: 1rem;
+}
+.banner p {
+  width: 300px;
+  text-align: center;
+  padding: 0.5rem 0rem;
+  border-radius: 2px;
+  background-color: Black;
+  color: White;
+}
+
+/* Information section */
+
+.text-box.info {
+  margin: 2rem 0rem;
+}
+
+.info p {
+  padding-bottom: 1.5rem;
+}
+
+.info h2 {
+  padding-bottom: 1.5rem;
+}
+
+.small img {
+  margin: 1rem;
+}
+
+.box.small {
+  display: flex;
+}
+
+/* Course section */
+
+#course.main-box {
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-huge {
+  display: flex;
+  width: 856px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main h2 {
+  padding: 2rem;
+}
+
+.box-medium {
+  width: 256px;  /* final is 264px or so, we need this because of helping borders */
+  display: flex;
+  flex-direction: column;
+}
+
+.box-medium .text-box {
+  padding: 1rem;
+}
+
+.course p {
+  margin-bottom: 0.5rem;
+}
+
+/* Thesis section */
+
+#thesis.main-box {
+  flex-wrap: wrap;
+}
+
+#thesis h2 {
+  width: 100%;
+  text-align: center;
+}
