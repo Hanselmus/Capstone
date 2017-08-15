@@ -1,6 +1,3 @@
-/* ~ 00:20:00 div design on paper */
-/* ~ 00:40:00 fill up html */
-
 html {
   font-size: 16px;
   font-family: sans-serif;
@@ -32,6 +29,10 @@ h4 {
 
 p {
   margin-bottom: 0.5rem;
+}
+
+.mobile {
+  display: none;
 }
 
 p.author {
@@ -157,6 +158,19 @@ nav li a {
   justify-content: center;
 }
 
+#banner h3 {
+  margin-bottom: 1.5rem;
+}
+
+#banner p {
+  width: 300px;
+  text-align: center;
+  padding: 0.5rem 0rem;
+  border-radius: 2px;
+  background-color: Black;
+  color: White;
+}
+
 /* Information section */
 
 #info .a img {
@@ -229,4 +243,151 @@ footer {
   padding: 1rem 1.5rem;
   background-color: White;
   border-top: 1px solid LightGray;
+}
+
+.copy p {
+  margin: 0;
+}
+@media only screen and (max-width:620px) {
+
+/* Header section */
+  .header {
+    width: 100%;
+  }
+
+  .logo {
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: inline;
+  }
+
+  nav {
+    display: none;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+/* Banner section */
+  .z {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .a {
+    width: 100%;
+    padding: 0;
+  }
+
+  .a img {
+    width: 100%;
+    height: auto;
+  }
+
+  .b {
+    width: 100%;
+  }
+
+  #banner .t {
+    width: 95%;
+    padding: 2rem 1rem;
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  #banner p {
+    width: 70%;
+  }
+
+  /* Information section */
+
+  #info.z {
+    background-color: LightGray;
+  }
+
+  #info .a {
+    display: none;
+  }
+
+  #info .b {
+    margin: 0;
+  }
+
+  .c {
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    margin-bottom: 4rem;
+    padding: 0;
+  }
+
+  img.mobile {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  #info .t {
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 0;
+    padding-left: 2rem;
+  }
+
+  /* Course section */
+
+  #course.z {
+    padding-bottom: 2rem;
+  }
+
+  #course .c {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  #course .d {
+    margin: 0;
+  }
+
+   #course .t {
+     width: 100%;
+     text-align: left;
+     padding: 0;
+   }
+
+  #course img,
+  #course h4,
+  #course p {
+    display: none;
+  }
+
+   #course h3 {
+     padding: 1rem;
+     padding-bottom: 2rem;
+   }
+
+   /* Thesis section */
+
+   #thesis .t,
+   #thesis .b {
+     display: none;
+   }
+
+   video {
+     width: 100%;
+     margin-bottom: 1.5rem;
+   }
+
+
+
 }
