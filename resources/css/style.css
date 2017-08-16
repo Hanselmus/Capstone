@@ -12,28 +12,72 @@ main - 2b4c6f
 112e4d
  */
 
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cardo'), local('Cardo-Regular'), url(https://fonts.gstatic.com/s/cardo/v8/XRgRvJ9BvurZhQZpuWMwgw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cardo Bold'), local('Cardo-Bold'), url(https://fonts.gstatic.com/s/cardo/v8/X-1BEHTKpRYzad3JEXy9-vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v10/4vqKRIwnQQGUQQh-PnvdMA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lora Bold'), local('Lora-Bold'), url(https://fonts.gstatic.com/s/lora/v10/P18Nsu9EiYldSvHIj_0e5w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
 html {
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: Raleway, sans-serif;
   background-color: #ffffff;
   color: #391300;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: Cardo, serif;
+  font-weight: 700;
+}
+
 h1 {
   font-size: 2rem;
-  font-weight: bold;
   margin-bottom: 1.5rem;
 }
 
 h2 {
   font-size: 1.75rem;
-  font-weight: bold;
   margin-bottom: 2rem;
 }
 
 h3 {
   font-size: 1.25rem;
-  font-weight: bold;
   padding-bottom: 0.5rem;
 }
 
@@ -95,14 +139,14 @@ header {
 }
 
 .logo span {
-  font-family: serif;
+  font-family: Lora, serif;
   text-transform: uppercase;
   font-size: 1.5rem;
   color: #763412;
 }
 
 .logo em {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 nav ul {
@@ -179,7 +223,9 @@ nav li {
   justify-content: center;
 }
 
-#banner h3 {
+#banner p {
+  font-size: 1.25rem;
+  padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -333,11 +379,6 @@ footer {
   border-color: #391300;
 }
 @media only screen and (max-width:1000px) {
-  .header,
-  .logo,
-  nav {
-    border: 1px solid Red;
-  }
 
   .z {
     width: 100%;
@@ -430,10 +471,6 @@ footer {
   }
 
   /* Information section */
-
-  #info.z {
-    background-color: LightGray;
-  }
 
   #info .a {
     display: none;
