@@ -3,7 +3,14 @@ main - aa603a
 ffddcc
 e2a180
 763412
-391300 */
+391300
+
+Hue: 229°
+main - 2b4c6f
+9fb1c3
+587593
+112e4d
+ */
 
 html {
   font-size: 16px;
@@ -45,6 +52,17 @@ p {
 
 p.author {
   font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #391300;
+  border-bottom: 1px solid #ffddcc;
+  transition: border-color 250ms linear 50ms;
+}
+
+a:hover {
+  border-bottom: 1px solid #391300;
 }
 
 /* Navigation section */
@@ -96,15 +114,6 @@ nav li {
    padding-left: 1rem;
  }
 
-nav li a {
-  text-decoration: none;
-  color: #391300;
-  border-bottom: 1px solid #ffddcc;
-}
-
-nav li a:hover {
-  border-bottom: 1px solid #391300;
-}
 
 /* Main part */
 .main {
@@ -153,7 +162,6 @@ nav li a:hover {
 }
 
 .e {
-  background-color: Gray;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -175,21 +183,28 @@ nav li a:hover {
   margin-bottom: 1.5rem;
 }
 
-#banner p {
+#banner a {
   width: 300px;
   text-align: center;
   padding: 0.5rem 0rem;
-  border-radius: 3px;
+  border: 0;
+  border-radius: 5px;
   background-color: #391300;
   color: #ffddcc;
+  text-decoration: none;
+  transition: color 300ms ease-in 50ms, background-color 300ms ease-in 50ms;
 }
 
-#banner p:hover {
+#banner a:hover {
   background-color: #ffddcc;
   color: #763412;
 }
 
 /* Information section */
+
+#info.z {
+  background-color: #ffddcc;
+}
 
 #info .a img {
   margin-bottom: 2rem;
@@ -199,19 +214,39 @@ nav li a:hover {
   margin-top: 1rem;
 }
 
+.c.f {
+  background-color: #e2a180;
+}
+
+#info a {
+  color: #2b4c6f;
+  border: 0;
+  text-decoration: underline;
+  transition: all 250ms linear 50ms;
+}
+
+#info a:hover {
+  color: #587593;
+  text-decoration: none;
+}
+
+#info a:visited {
+  color: #9fb1c3;
+}
+
 /* Course section */
 
 #course.z {
   flex-direction: column;
   align-items: center;
-  background-color: LightGray;
+  background-color: #e2a180;
 }
 
 #course .c {
   width: 264px;
   flex-direction: column;
   padding: 0;
-  background-color: LightGray;
+  background-color: #ffddcc;
   margin: 0rem 1rem 2rem 1rem;
 }
 
@@ -230,7 +265,7 @@ nav li a:hover {
 #thesis.z {
   flex-direction: column;
   align-items: center;
-  background-color: LightGray;
+  background-color: #ffddcc;
 }
 
 #thesis .e {
@@ -259,14 +294,44 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
-  background-color: White;
-  border-top: 1px solid LightGray;
+  background-color: #391300;
+  border-top: 1px solid #763412;
+  color: #ffddcc;
 }
 
 .copy p {
   margin: 0;
 }
 
+.footer a {
+  color: #ffddcc;
+  border-bottom: 1px solid #391300;
+}
+
+.footer a:hover {
+  border-bottom: 1px solid #ffddcc;
+}
+
+/* Readmore.html */
+#readmore .header {
+  width: 85%;
+  justify-content: center;
+}
+
+#readmore .z {
+  width:85%;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+#readmore a {
+  margin: 5rem;
+  border-color: #e2a180;
+}
+
+#readmore a:hover {
+  border-color: #391300;
+}
 @media only screen and (max-width:1000px) {
   .header,
   .logo,
