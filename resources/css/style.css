@@ -405,14 +405,31 @@ footer {
 
 
 }
-@media only screen and (max-width:670px) {
-  .logo .desktop {
-    display: none;
+
+@media only screen and (max-width:720px) {
+  /* Botond Samsung SM-J500FN 720*1280 */
+
+  h1 {
+    font-size: 5rem;
   }
 
-}
+  h2 {
+    font-size: 4.375rem;
+  }
 
-@media only screen and (max-width:620px) {
+  h3 {
+    font-size: 3.125rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  p,
+  a,
+  #banner p {
+    font-size: 2.5rem;
+  }
 
   .logo {
     width: 100%;
@@ -466,9 +483,12 @@ footer {
     margin-bottom: 2rem;
   }
 
-  #banner p {
-    width: 70%;
+  #banner a {
+    width: 450px;
+    padding: 1rem 0rem;
+    border-radius: 10px;
   }
+
 
   /* Information section */
 
@@ -480,12 +500,12 @@ footer {
     margin: 0;
   }
 
-  .c {
+  #info .c {
     flex-direction: column;
     align-items: center;
     margin: 1rem;
-    margin-bottom: 4rem;
     padding: 0;
+    padding-bottom: 1rem;
   }
 
   img.mobile {
@@ -511,10 +531,6 @@ footer {
     margin-bottom: 0.5rem;
   }
 
-  #course .d {
-    margin: 0;
-  }
-
    #course .t {
      width: 100%;
      text-align: left;
@@ -529,7 +545,7 @@ footer {
 
    #course h3 {
      padding: 1rem;
-     padding-bottom: 2rem;
+     padding-bottom: 1.5rem;
    }
 
    /* Thesis section */
