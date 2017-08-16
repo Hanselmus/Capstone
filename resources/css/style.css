@@ -378,7 +378,9 @@ footer {
 #readmore a:hover {
   border-color: #391300;
 }
+
 @media only screen and (max-width:1000px) {
+  /* Tabletta Android 5.1, Chrome 51, 800*1280 */
 
   .z {
     width: 100%;
