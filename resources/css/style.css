@@ -82,6 +82,7 @@ header {
 
 nav ul {
   display: flex;
+  justify-content: flex-end;
 }
 
 nav li {
@@ -248,12 +249,47 @@ footer {
 .copy p {
   margin: 0;
 }
-@media only screen and (max-width:620px) {
 
-/* Header section */
-  .header {
+@media only screen and (max-width:1000px) {
+  .header,
+  .logo,
+  nav {
+    border: 1px solid Red;
+  }
+
+  .z {
     width: 100%;
   }
+
+  /* Header section */
+    .header {
+      width: 100%;
+    }
+
+    .logo {
+      padding-left: 0.5rem;
+    }
+
+    .header nav {
+      width: 100%;
+    }
+
+    nav {
+      padding-right: 0.5rem;
+    }
+
+    /* Banner section */
+
+
+}
+@media only screen and (max-width:670px) {
+  .logo .desktop {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width:620px) {
 
   .logo {
     width: 100%;
@@ -277,7 +313,8 @@ footer {
     margin-bottom: 1rem;
   }
 
-/* Banner section */
+  /* Banner section */
+
   .z {
     width: 100%;
     flex-wrap: wrap;
