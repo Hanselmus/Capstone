@@ -442,16 +442,35 @@ footer {
     display: none;
   }
 
+  h2 {
+    margin-bottom: 1rem;
+  }
+
   .mobile {
     display: inline;
   }
+
+  /* Header */
 
   .header nav {
     display: none;
   }
 
-  h2 {
-    margin-bottom: 1rem;
+  .icon {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon a {
+    border: 0;
+  }
+
+  .icon a:hover {
+    background-color: #e2a180;
+    transition: all 250ms linear 50ms;
   }
 
   /* Banner section */
