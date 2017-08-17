@@ -175,6 +175,10 @@ nav li {
   background-color: #e2a180;
 }
 
+.main .z:nth-child(even) {
+  background-color: #ffddcc;
+}
+
 .a {
   width: 60%;
   display: flex;
@@ -221,6 +225,11 @@ nav li {
   justify-content: center;
   padding-right: 1.5rem;
 }
+
+.b .c:nth-child(even) {
+  background-color: #e2a180;
+}
+
 /* Banner section */
 
 #banner .b {
@@ -252,10 +261,6 @@ nav li {
 
 /* Information section */
 
-#info.z {
-  background-color: #ffddcc;
-}
-
 #info .a img {
   margin-bottom: 2rem;
 }
@@ -264,9 +269,13 @@ nav li {
   margin-top: 1rem;
 }
 
-.c.f {
+.b .c:nth-child(even) {
   background-color: #e2a180;
 }
+
+/*.c.f {
+  background-color: #e2a180;
+}*/
 
 #info a {
   color: #2b4c6f;
@@ -315,7 +324,6 @@ nav li {
 #thesis.z {
   flex-direction: column;
   align-items: center;
-  background-color: #ffddcc;
 }
 
 #thesis .e {
