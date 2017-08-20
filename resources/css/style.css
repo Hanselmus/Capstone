@@ -233,6 +233,13 @@ nav li {
   background-color: #e2a180;
 }
 
+/* Version section */
+
+#version.z {
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Banner section */
 
 #banner .b {
@@ -301,7 +308,6 @@ nav li {
 #course.z {
   flex-direction: column;
   align-items: center;
-  background-color: #e2a180;
 }
 
 #course .c {
