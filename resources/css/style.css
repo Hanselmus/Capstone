@@ -394,17 +394,23 @@ footer {
 #readmore .header {
   width: 85%;
   justify-content: center;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 #readmore .large-box {
   width:85%;
   justify-content: center;
-  padding: 0 1.5rem;
 }
 
 #readmore a {
   margin: 5rem;
   border-color: #e2a180;
+}
+
+#readmore a.academy {
+  margin: 0;
+  border-color: #ffddcc;
 }
 
 #readmore a:hover {
