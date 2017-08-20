@@ -90,7 +90,7 @@ p {
   margin-bottom: 0.5rem;
 }
 
-.mobile {
+.below720 {
   display: none;
 }
 
@@ -395,9 +395,8 @@ footer {
   border-color: #391300;
 }
 
+/* Media queries for browser windows resizing */
 @media only screen and (max-width:1000px) {
-  /* Tabletta Android 5.1, Chrome 51, 800*1280 */
-  /* iPhone 6, Safari, 750*1334 */
 
   .z {
     width: 100%;
@@ -426,7 +425,7 @@ footer {
     width: 100%;
   }
 
-  #info .desktop {
+  .above880 {
     display: none;
   }
 
@@ -440,8 +439,7 @@ footer {
   }
 }
 
-@media only screen and (max-width:720px) {
-  /* Botond Samsung SM-J500FN 720*1280 */
+@media only screen and (max-width:720px), screen and (-webkit-min-device-pixel-ratio: 2) and (max-width:1000px) {
 
   .logo {
     width: 100%;
@@ -449,7 +447,7 @@ footer {
     padding: 0 2rem;
   }
 
-  .desktop {
+  .above720 {
     display: none;
   }
 
@@ -457,7 +455,7 @@ footer {
     margin-bottom: 1rem;
   }
 
-  .mobile {
+  .below720 {
     display: inline;
   }
 
@@ -517,8 +515,6 @@ footer {
   .link.forth {
     right: 3%;
   }
-
-
 
   .icon:hover .link {
     visibility: visible;
@@ -581,7 +577,7 @@ footer {
     padding-bottom: 1rem;
   }
 
-  img.mobile {
+  img.below720 {
     max-width: 100%;
     padding: 0;
   }
@@ -604,11 +600,11 @@ footer {
     margin-bottom: 0.5rem;
   }
 
-   #course .t {
-     width: 100%;
-     text-align: left;
-     padding: 0;
-   }
+  #course .t {
+   width: 100%;
+   text-align: left;
+   padding: 0;
+  }
 
   #course img,
   #course h4,
@@ -616,22 +612,21 @@ footer {
     display: none;
   }
 
-   #course h3 {
-     padding: 1rem;
-   }
+  #course h3 {
+   padding: 1rem;
+  }
 
-   /* Thesis section */
+  /* Thesis section */
 
-   #thesis .t,
-   #thesis .b {
-     display: none;
-   }
+  #thesis .t,
+  #thesis .b {
+   display: none;
+  }
 
-   video {
-     width: 100%;
-     margin-bottom: 1.5rem;
-   }
-
-
-
+  video {
+   width: 100%;
+   margin-bottom: 1.5rem;
+  }
 }
+
+@media
