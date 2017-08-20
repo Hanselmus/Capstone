@@ -16,14 +16,14 @@ main - 2b4c6f
   font-family: 'Cardo';
   font-style: normal;
   font-weight: 400;
-  src: local('Cardo'), local('Cardo-Regular'), url(https://fonts.gstatic.small-boxom/s/cardo/v8/XRgRvJ9BvurZhQZpuWMwgw.woff2) format('woff2');
+  src: local('Cardo'), local('Cardo-Regular'), url(https://fonts.gstatic.com/s/cardo/v8/XRgRvJ9BvurZhQZpuWMwgw.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 @font-face {
   font-family: 'Cardo';
   font-style: normal;
   font-weight: 700;
-  src: local('Cardo Bold'), local('Cardo-Bold'), url(https://fonts.gstatic.small-boxom/s/cardo/v8/X-1BEHTKpRYzad3JEXy9-vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  src: local('Cardo Bold'), local('Cardo-Bold'), url(https://fonts.gstatic.com/s/cardo/v8/X-1BEHTKpRYzad3JEXy9-vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
@@ -31,7 +31,7 @@ main - 2b4c6f
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.small-boxom/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
@@ -39,7 +39,7 @@ main - 2b4c6f
   font-family: 'Lora';
   font-style: normal;
   font-weight: 400;
-  src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.small-boxom/s/lora/v10/4vqKRIwnQQGUQQh-PnvdMA.woff2) format('woff2');
+  src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v10/4vqKRIwnQQGUQQh-PnvdMA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
@@ -47,7 +47,7 @@ main - 2b4c6f
   font-family: 'Lora';
   font-style: normal;
   font-weight: 700;
-  src: local('Lora Bold'), local('Lora-Bold'), url(https://fonts.gstatic.small-boxom/s/lora/v10/P18Nsu9EiYldSvHIj_0e5w.woff2) format('woff2');
+  src: local('Lora Bold'), local('Lora-Bold'), url(https://fonts.gstatic.com/s/lora/v10/P18Nsu9EiYldSvHIj_0e5w.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
@@ -90,11 +90,11 @@ p {
   margin-bottom: 0.5rem;
 }
 
-.right-boxelow720 {
+.right-box .below720 {
   display: none;
 }
 
-p.left-boxuthor {
+p.author {
   font-size: 0.8rem;
 }
 
@@ -138,7 +138,7 @@ header {
   heigth: 2rem;
 }
 
-.left-boxcademy {
+a.academy {
   font-family: Lora, serif;
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -160,6 +160,10 @@ nav li {
 
 .icon .link {
    visibility: hidden;
+}
+
+.below720 {
+  display: none;
 }
 
 /* Main part */
@@ -206,8 +210,10 @@ nav li {
   display: flex;
   }
 
-.small-box img {
+.right-box .small-box img {
   padding: 1rem;
+  min-width: 135px;
+  height: 135px;
 }
 
 .head-box {
@@ -339,6 +345,10 @@ nav li {
   flex-wrap: nowrap;
 }
 
+#thesis h2 {
+  margin-bottom: 1rem;
+}
+
 #thesis .left-box {
   padding-top: 0;
 }
@@ -426,17 +436,17 @@ footer {
     }
 }
 
-@media only screen and (max-width:880px) {
+@media only screen and (max-width:890px) {
   #banner a {
     width: 100%;
   }
 
-  .left-boxbove880 {
+  .above890 {
     display: none;
   }
 
-  #info .text-box,
-  #thesis .text-box {
+  #info .right-box .text-box,
+  #thesis .right-box .text-box {
     padding: 1.5rem;
   }
 
@@ -447,13 +457,15 @@ footer {
 
 @media only screen and (max-width:720px), screen and (-webkit-min-device-pixel-ratio: 2) and (max-width:1000px) {
 
+/* second part is for iPhone */
+
   .logo {
     width: 100%;
     justify-content: space-between;
     padding: 0 2rem;
   }
 
-  .left-boxbove720 {
+  .above720 {
     display: none;
   }
 
@@ -461,7 +473,7 @@ footer {
     margin-bottom: 1rem;
   }
 
-  .right-boxelow720 {
+  .below720 {
     display: inline;
   }
 
@@ -489,7 +501,6 @@ footer {
   }
 
   .icon .link {
-    visibility: hidden;
     width: 100px;
     background-color: #763412;
     color: #ffddcc;
@@ -576,19 +587,21 @@ footer {
   }
 
   #info .small-box {
+    width: 95%;
     flex-direction: column;
     align-items: center;
     margin: 1rem;
     padding: 0;
-    padding-bottom: 1rem;
   }
 
-  img.right-boxelow720 {
+  .right-box img.below720 {
+    display: inline;
     max-width: 100%;
+    height: auto;
     padding: 0;
   }
 
-  #info .text-box {
+  #info .right-box .text-box {
     width: 100%;
     padding: 1rem;
     padding-bottom: 0;
@@ -634,5 +647,3 @@ footer {
    margin-bottom: 1.5rem;
   }
 }
-
-@media
