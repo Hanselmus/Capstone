@@ -1,4 +1,4 @@
-/* Palletton.small-boxom Hue: 19° Monochromatic
+/* Palletton.com Hue: 19° Monochromatic
 main - aa603a
 ffddcc
 e2a180
@@ -10,6 +10,7 @@ main - 2b4c6f
 9fb1c3
 587593
 112e4d
+021325
  */
 
 @font-face {
@@ -239,16 +240,6 @@ nav li {
   background-color: #e2a180;
 }
 
-/* Version section */
-
-#version.head-box {
-  width: 1000px;
-  background-color: #391300;
-  color: #ffddcc;
-  margin: 0;
-  padding-top: 2rem;
-}
-
 /* Banner section */
 
 #banner .right-box {
@@ -293,19 +284,19 @@ nav li {
 }
 
 #info a {
-  color: #2b4c6f;
+  color: #112ead;
   border: 0;
-  text-decoration: underline;
+  text-decoration: none;
   transition: all 250ms linear 50ms;
 }
 
 #info a:hover {
-  color: #587593;
-  text-decoration: none;
+  color: #9fb1c3;
+  text-decoration: underline;
 }
 
 #info a:visited {
-  color: #9fb1c3;
+  color: #2b4c6f;
 }
 
 /* Course section */
@@ -377,7 +368,7 @@ footer {
   color: #ffddcc;
 }
 
-.small-boxopy p {
+.copy p {
   margin: 0;
 }
 
