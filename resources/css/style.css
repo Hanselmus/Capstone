@@ -115,12 +115,12 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
+  position: fixed;
+  z-index: 10;
 }
 
 .header {
   display: flex;
-  position: fixed;
-  z-index: 10;
   width: 952px;
   justify-content: space-between;
   padding: 1rem 1.5rem;
@@ -279,13 +279,9 @@ nav li {
   margin-top: 1rem;
 }
 
-.b .c:nth-child(even) {
+#info .b .c:nth-child(even) {
   background-color: #e2a180;
 }
-
-/*.c.f {
-  background-color: #e2a180;
-}*/
 
 #info a {
   color: #2b4c6f;
