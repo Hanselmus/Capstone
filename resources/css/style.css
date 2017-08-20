@@ -455,9 +455,7 @@ footer {
   }
 }
 
-@media only screen and (max-width:720px), screen and (-webkit-min-device-pixel-ratio: 2) and (max-width:1000px) {
-
-/* second part is for iPhone */
+@media only screen and (max-width:720px)/* For browser window size*/, screen and (-webkit-min-device-pixel-ratio: 2) and (max-width:1000px)/* for iPhone */ {
 
   .logo {
     width: 100%;
@@ -466,6 +464,10 @@ footer {
   }
 
   .above720 {
+    display: none;
+  }
+
+  .above890 {
     display: none;
   }
 
