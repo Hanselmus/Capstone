@@ -527,7 +527,7 @@ footer {
     left: 29.5%;
   }
 
-  .link.text-boxhird {
+  .link.third {
     right: 29.5%
   }
 
@@ -627,13 +627,8 @@ footer {
    padding: 0;
   }
 
-  #course img,
-  #course h4,
-  #course p {
-    display: none;
-  }
-
   #course h3 {
+   display: inline;
    padding: 1rem;
   }
 
