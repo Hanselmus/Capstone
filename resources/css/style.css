@@ -235,9 +235,12 @@ nav li {
 
 /* Version section */
 
-#version.z {
-  flex-direction: column;
-  align-items: center;
+#version.d {
+  width: 1000px;
+  background-color: #391300;
+  color: #ffddcc;
+  margin: 0;
+  padding-top: 2rem;
 }
 
 /* Banner section */
@@ -256,9 +259,9 @@ nav li {
   width: 300px;
   text-align: center;
   padding: 0.5rem 0rem;
-  border: 0;
+  border: 1px solid #763412;
   border-radius: 5px;
-  background-color: #391300;
+  background-color: #763412;
   color: #ffddcc;
   text-decoration: none;
   transition: color 300ms ease-in 50ms, background-color 300ms ease-in 50ms;
@@ -310,7 +313,8 @@ nav li {
   width: 264px;
   flex-direction: column;
   padding: 0;
-  background-color: #ffddcc;
+  background-color: #aa603a;
+  color: #ffddcc;
   margin: 0rem 1rem 2rem 1rem;
 }
 
@@ -554,7 +558,7 @@ footer {
   }
 
   #banner a {
-    width: 450px;
+    width: 70%;
     padding: 1rem 0rem;
     border-radius: 10px;
   }
