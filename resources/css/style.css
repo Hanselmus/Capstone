@@ -1,4 +1,4 @@
-/* Palletton.com Hue: 19° Monochromatic
+/* Palletton.small-boxom Hue: 19° Monochromatic
 main - aa603a
 ffddcc
 e2a180
@@ -16,14 +16,14 @@ main - 2b4c6f
   font-family: 'Cardo';
   font-style: normal;
   font-weight: 400;
-  src: local('Cardo'), local('Cardo-Regular'), url(https://fonts.gstatic.com/s/cardo/v8/XRgRvJ9BvurZhQZpuWMwgw.woff2) format('woff2');
+  src: local('Cardo'), local('Cardo-Regular'), url(https://fonts.gstatic.small-boxom/s/cardo/v8/XRgRvJ9BvurZhQZpuWMwgw.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 @font-face {
   font-family: 'Cardo';
   font-style: normal;
   font-weight: 700;
-  src: local('Cardo Bold'), local('Cardo-Bold'), url(https://fonts.gstatic.com/s/cardo/v8/X-1BEHTKpRYzad3JEXy9-vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  src: local('Cardo Bold'), local('Cardo-Bold'), url(https://fonts.gstatic.small-boxom/s/cardo/v8/X-1BEHTKpRYzad3JEXy9-vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
@@ -31,7 +31,7 @@ main - 2b4c6f
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.small-boxom/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
@@ -39,7 +39,7 @@ main - 2b4c6f
   font-family: 'Lora';
   font-style: normal;
   font-weight: 400;
-  src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v10/4vqKRIwnQQGUQQh-PnvdMA.woff2) format('woff2');
+  src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.small-boxom/s/lora/v10/4vqKRIwnQQGUQQh-PnvdMA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
@@ -47,7 +47,7 @@ main - 2b4c6f
   font-family: 'Lora';
   font-style: normal;
   font-weight: 700;
-  src: local('Lora Bold'), local('Lora-Bold'), url(https://fonts.gstatic.com/s/lora/v10/P18Nsu9EiYldSvHIj_0e5w.woff2) format('woff2');
+  src: local('Lora Bold'), local('Lora-Bold'), url(https://fonts.gstatic.small-boxom/s/lora/v10/P18Nsu9EiYldSvHIj_0e5w.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
@@ -90,11 +90,11 @@ p {
   margin-bottom: 0.5rem;
 }
 
-.below720 {
+.right-boxelow720 {
   display: none;
 }
 
-p.author {
+p.left-boxuthor {
   font-size: 0.8rem;
 }
 
@@ -138,7 +138,7 @@ header {
   heigth: 2rem;
 }
 
-.academy {
+.left-boxcademy {
   font-family: Lora, serif;
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -172,17 +172,17 @@ nav li {
   top: 4rem;
 }
 
-.z {
+.large-box {
   width: 1000px;
   display: flex;
   background-color: #e2a180;
 }
 
-.main .z:nth-child(even) {
+.main .large-box:nth-child(even) {
   background-color: #ffddcc;
 }
 
-.a {
+.left-box {
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -190,11 +190,11 @@ nav li {
   padding: 2rem 1.5rem;
 }
 
-.a img {
+.left-box img {
   width: 100%;
 }
 
-.b {
+.right-box {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -202,40 +202,40 @@ nav li {
   align-items: flex-start;
 }
 
-.c {
+.small-box {
   display: flex;
   }
 
-.c img {
+.small-box img {
   padding: 1rem;
 }
 
-.d {
+.head-box {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
 }
 
-.e {
+.wide-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.t {
+.text-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-right: 1.5rem;
 }
 
-.b .c:nth-child(even) {
+.right-box .small-box:nth-child(even) {
   background-color: #e2a180;
 }
 
 /* Version section */
 
-#version.d {
+#version.head-box {
   width: 1000px;
   background-color: #391300;
   color: #ffddcc;
@@ -245,7 +245,7 @@ nav li {
 
 /* Banner section */
 
-#banner .b {
+#banner .right-box {
   justify-content: center;
 }
 
@@ -274,15 +274,15 @@ nav li {
 
 /* Information section */
 
-#info .a img {
+#info .left-box img {
   margin-bottom: 2rem;
 }
 
-#info .b {
+#info .right-box {
   margin-top: 1rem;
 }
 
-#info .b .c:nth-child(even) {
+#info .right-box .small-box:nth-child(even) {
   background-color: #e2a180;
 }
 
@@ -304,12 +304,12 @@ nav li {
 
 /* Course section */
 
-#course.z {
+#course.large-box {
   flex-direction: column;
   align-items: center;
 }
 
-#course .c {
+#course .small-box {
   width: 264px;
   flex-direction: column;
   padding: 0;
@@ -322,7 +322,7 @@ nav li {
   padding: 0;
 }
 
-#course .t {
+#course .text-box {
   height: 100%;
   justify-content: flex-start;
   padding: 1rem;
@@ -330,16 +330,16 @@ nav li {
 
 /* Thesis section */
 
-#thesis.z {
+#thesis.large-box {
   flex-direction: column;
   align-items: center;
 }
 
-#thesis .e {
+#thesis .wide-box {
   flex-wrap: nowrap;
 }
 
-#thesis .a {
+#thesis .left-box {
   padding-top: 0;
 }
 
@@ -367,7 +367,7 @@ footer {
   color: #ffddcc;
 }
 
-.copy p {
+.small-boxopy p {
   margin: 0;
 }
 
@@ -386,7 +386,7 @@ footer {
   justify-content: center;
 }
 
-#readmore .z {
+#readmore .large-box {
   width:85%;
   justify-content: center;
   padding: 0 1.5rem;
@@ -404,7 +404,7 @@ footer {
 /* Media queries for browser windows resizing */
 @media only screen and (max-width:1000px) {
 
-  .z {
+  .large-box {
     width: 100%;
   }
 
@@ -431,12 +431,12 @@ footer {
     width: 100%;
   }
 
-  .above880 {
+  .left-boxbove880 {
     display: none;
   }
 
-  #info .t,
-  #thesis .t {
+  #info .text-box,
+  #thesis .text-box {
     padding: 1.5rem;
   }
 
@@ -453,7 +453,7 @@ footer {
     padding: 0 2rem;
   }
 
-  .above720 {
+  .left-boxbove720 {
     display: none;
   }
 
@@ -461,7 +461,7 @@ footer {
     margin-bottom: 1rem;
   }
 
-  .below720 {
+  .right-boxelow720 {
     display: inline;
   }
 
@@ -514,7 +514,7 @@ footer {
     left: 29.5%;
   }
 
-  .link.third {
+  .link.text-boxhird {
     right: 29.5%
   }
 
@@ -529,26 +529,26 @@ footer {
 
   /* Banner section */
 
-  .z {
+  .large-box {
     width: 100%;
     flex-wrap: wrap;
   }
 
-  .a {
+  .left-box {
     width: 100%;
     padding: 0;
   }
 
-  .a img {
+  .left-box img {
     width: 100%;
     height: auto;
   }
 
-  .b {
+  .right-box {
     width: 100%;
   }
 
-  #banner .t {
+  #banner .text-box {
     width: 95%;
     padding: 2rem 1rem;
   }
@@ -566,16 +566,16 @@ footer {
 
   /* Information section */
 
-  #info .a {
+  #info .left-box {
     display: none;
   }
 
-  #info .b {
+  #info .right-box {
     margin: 0;
     align-items: center;
   }
 
-  #info .c {
+  #info .small-box {
     flex-direction: column;
     align-items: center;
     margin: 1rem;
@@ -583,12 +583,12 @@ footer {
     padding-bottom: 1rem;
   }
 
-  img.below720 {
+  img.right-boxelow720 {
     max-width: 100%;
     padding: 0;
   }
 
-  #info .t {
+  #info .text-box {
     width: 100%;
     padding: 1rem;
     padding-bottom: 0;
@@ -597,16 +597,16 @@ footer {
 
   /* Course section */
 
-  #course.z {
+  #course.large-box {
     padding-bottom: 2rem;
   }
 
-  #course .c {
+  #course .small-box {
     width: 100%;
     margin-bottom: 0.5rem;
   }
 
-  #course .t {
+  #course .text-box {
    width: 100%;
    text-align: left;
    padding: 0;
@@ -624,8 +624,8 @@ footer {
 
   /* Thesis section */
 
-  #thesis .t,
-  #thesis .b {
+  #thesis .text-box,
+  #thesis .right-box {
    display: none;
   }
 
